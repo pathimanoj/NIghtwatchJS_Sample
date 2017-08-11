@@ -1,0 +1,40 @@
+09:04:02.952 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+09:04:02.952 INFO - Launching a standalone Selenium Server
+2017-08-11 09:04:02.969:INFO::main: Logging initialized @217ms to org.seleniumhq.jetty9.util.log.StdErrLog
+09:04:03.014 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:04:03.015 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:04:03.015 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+09:04:03.015 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+09:04:03.015 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+09:04:03.015 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-08-11 09:04:03.051:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-11 09:04:03.080:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-08-11 09:04:03.106:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:6666}
+2017-08-11 09:04:03.107:INFO:osjs.Server:main: Started @355ms
+09:04:03.107 INFO - Selenium Server is up and running
+09:04:03.346 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+09:04:03.369 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+09:04:03.387 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 5608
+Only local connections are allowed.
+09:04:04.260 INFO - Detected dialect: OSS
+09:04:04.275 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+09:04:04.290 INFO - Executing: [get: https://www.ons.gov.uk/])
+09:04:05.196 INFO - Done: [get: https://www.ons.gov.uk/]
+09:04:05.218 INFO - Executing: [find element: By.cssSelector: body])
+09:04:05.241 INFO - Done: [find element: By.cssSelector: body]
+09:04:05.245 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: body]])
+09:04:05.467 INFO - Done: [get text: 0 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: body]]
+09:04:05.472 INFO - Executing: [find element: By.cssSelector: #nav-search])
+09:04:05.484 INFO - Done: [find element: By.cssSelector: #nav-search]
+09:04:05.487 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search], [C, P, I]])
+09:04:05.539 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search], [C, P, I]]
+09:04:05.542 INFO - Executing: [find element: By.cssSelector: #nav-search-submit])
+09:04:05.557 INFO - Done: [find element: By.cssSelector: #nav-search-submit]
+09:04:05.559 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search-submit]])
+09:04:05.968 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search-submit]]
+09:04:05.973 INFO - Executing: [delete session: ac787a77-ac13-408e-9c86-5a1cf47ceab7])
+09:04:06.044 INFO - Done: [delete session: ac787a77-ac13-408e-9c86-5a1cf47ceab7]

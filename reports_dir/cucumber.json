@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Customise CPI dataset",
+    "tags": [],
+    "uri": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/CustomiseCpiDataset.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Navigate to the CPI dataset page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@cpi"
+          }
+        ],
+        "id": "customise-cpi-dataset;navigate-to-the-cpi-dataset-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 1982
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ONS Homepage",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for CPI dataset",
+            "result": {
+              "status": "passed",
+              "duration": 6
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select CPI dataset from search results",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be on the CPI dataset landing page",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 831
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:45"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "customise-cpi-dataset"
+  }
+]
