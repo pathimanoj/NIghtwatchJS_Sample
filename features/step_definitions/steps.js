@@ -1,13 +1,7 @@
-/**
- * Created by manojpathi on 08/08/2017.
- */
-// require('apickli-gherkin')
 const {client} = require('nightwatch-cucumber')
 const {defineSupportCode} = require('cucumber')
 const {
-    bpaUrl,
-    generateRandomDate,
-    createBooking
+    randonNumber
 } = require('../../page_objects/utils')
 
 
@@ -16,26 +10,31 @@ defineSupportCode(({Given, Then, When, After, Before, registerHandler}) => {
     // Before every feature instantiate the client session - open the browser
     // client - browser object
     Before(function (scenario) {
-        return client.init();
+        return client.init()
     });
-
 
     Given(/^I am on the ONS Homepage$/, function () {
+        return client
+            .assert.containsText('body', 'A to Z of statistical bulletins')
+            .waitForElementVisible('body', 1000)
 
-        client.assert.containsText('body', 'A to Z of statistical bulletins')
     });
 
-    When(/^I search for (.*) dataset$/, function (seacrhText) {
+    When(/^I search for (.*) dataset$/, function (searchText) {
         this.homePage = client.page.homePage();
-        this.homePage.searchWithText(seacrhText);
+        return this.homePage.searchWithText(searchText);
     });
 
-    When(/^I select CPI dataset from search results$/, function () {
+    When(/^I select (.*) dataset from search results$/, function (searchText) {
+        this.searchResultsPage = client.page.searchResultsPage();
+        return this.searchResultsPage.selectSearchResult(searchText);
 
     });
 
     Then(/^I should be on the CPI dataset landing page$/, function () {
 
+        this.dataSetPage = client.page.dataSetPage();
+        return this.dataSetPage.verifyDatasetTitle();
     })
 
 

@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "cucumberautocomplete.steps": [
+    "features/step_definitions/**/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/*feature",
+  "cucumberautocomplete.pages": {
+    "users": "page_objects/users.storage.js",
+    "pathes": "page_objects/pathes.storage.js",
+    "main": "test/features/support/page_objects/main.page.js"
+  },
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  }
+}

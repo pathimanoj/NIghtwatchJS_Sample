@@ -1,40 +1,56 @@
-09:04:02.952 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-09:04:02.952 INFO - Launching a standalone Selenium Server
-2017-08-11 09:04:02.969:INFO::main: Logging initialized @217ms to org.seleniumhq.jetty9.util.log.StdErrLog
-09:04:03.014 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+13:59:52.166 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+13:59:52.167 INFO - Launching a standalone Selenium Server
+2017-08-21 13:59:52.195:INFO::main: Logging initialized @263ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:59:52.256 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-09:04:03.015 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+13:59:52.257 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-09:04:03.015 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-09:04:03.015 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+13:59:52.257 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:59:52.257 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-09:04:03.015 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-09:04:03.015 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-08-11 09:04:03.051:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-08-11 09:04:03.080:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-08-11 09:04:03.106:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:6666}
-2017-08-11 09:04:03.107:INFO:osjs.Server:main: Started @355ms
-09:04:03.107 INFO - Selenium Server is up and running
-09:04:03.346 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-09:04:03.369 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-09:04:03.387 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 5608
+13:59:52.257 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:59:52.257 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-08-21 13:59:52.309:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-21 13:59:52.342:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-08-21 13:59:52.370:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:6666}
+2017-08-21 13:59:52.370:INFO:osjs.Server:main: Started @439ms
+13:59:52.371 INFO - Selenium Server is up and running
+13:59:52.626 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+13:59:52.656 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+13:59:52.673 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 21094
 Only local connections are allowed.
-09:04:04.260 INFO - Detected dialect: OSS
-09:04:04.275 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-09:04:04.290 INFO - Executing: [get: https://www.ons.gov.uk/])
-09:04:05.196 INFO - Done: [get: https://www.ons.gov.uk/]
-09:04:05.218 INFO - Executing: [find element: By.cssSelector: body])
-09:04:05.241 INFO - Done: [find element: By.cssSelector: body]
-09:04:05.245 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: body]])
-09:04:05.467 INFO - Done: [get text: 0 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: body]]
-09:04:05.472 INFO - Executing: [find element: By.cssSelector: #nav-search])
-09:04:05.484 INFO - Done: [find element: By.cssSelector: #nav-search]
-09:04:05.487 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search], [C, P, I]])
-09:04:05.539 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search], [C, P, I]]
-09:04:05.542 INFO - Executing: [find element: By.cssSelector: #nav-search-submit])
-09:04:05.557 INFO - Done: [find element: By.cssSelector: #nav-search-submit]
-09:04:05.559 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search-submit]])
-09:04:05.968 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (a091323a9df626840ce73795f74da9d4)] -> css selector: #nav-search-submit]]
-09:04:05.973 INFO - Executing: [delete session: ac787a77-ac13-408e-9c86-5a1cf47ceab7])
-09:04:06.044 INFO - Done: [delete session: ac787a77-ac13-408e-9c86-5a1cf47ceab7]
+13:59:53.928 INFO - Detected dialect: OSS
+13:59:53.943 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/usr/local/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+13:59:53.958 INFO - Executing: [get: https://www.ons.gov.uk/])
+13:59:54.941 INFO - Done: [get: https://www.ons.gov.uk/]
+13:59:54.969 INFO - Executing: [find element: By.cssSelector: body])
+13:59:54.992 INFO - Done: [find element: By.cssSelector: body]
+13:59:54.996 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: body]])
+13:59:55.236 INFO - Done: [get text: 0 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: body]]
+13:59:55.241 INFO - Executing: [find elements: By.cssSelector: body])
+13:59:55.264 INFO - Done: [find elements: By.cssSelector: body]
+13:59:55.266 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: body]])
+13:59:55.278 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: body]]
+13:59:55.290 INFO - Executing: [find element: By.cssSelector: #nav-search])
+13:59:55.302 INFO - Done: [find element: By.cssSelector: #nav-search]
+13:59:55.305 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #nav-search], [C, P, I]])
+13:59:55.362 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #nav-search], [C, P, I]]
+13:59:55.365 INFO - Executing: [find element: By.cssSelector: #nav-search-submit])
+13:59:55.378 INFO - Done: [find element: By.cssSelector: #nav-search-submit]
+13:59:55.381 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #nav-search-submit]])
+13:59:55.810 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #nav-search-submit]]
+13:59:55.821 INFO - Executing: [find element: By.cssSelector: #checkbox-dataset])
+13:59:55.849 INFO - Done: [find element: By.cssSelector: #checkbox-dataset]
+13:59:55.851 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #checkbox-dataset]])
+13:59:55.899 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: #checkbox-dataset]]
+13:59:55.902 INFO - Executing: [find element: By.cssSelector: .search-results__title>a>strong])
+13:59:55.916 INFO - Done: [find element: By.cssSelector: .search-results__title>a>strong]
+13:59:55.918 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: .search-results__title>a>strong]])
+13:59:56.115 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: .search-results__title>a>strong]]
+13:59:56.122 INFO - Executing: [find elements: By.cssSelector: .page-intro__title])
+13:59:56.356 INFO - Done: [find elements: By.cssSelector: .page-intro__title]
+13:59:56.359 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: .page-intro__title]])
+13:59:56.377 INFO - Done: [get text: 5 [[ChromeDriver: chrome on MAC (d1b37af37f10afa914893a53e3130098)] -> css selector: .page-intro__title]]
+13:59:56.383 INFO - Executing: [delete session: 9f98c4cd-254f-4ac3-8a29-f2d07948e712])
+13:59:56.455 INFO - Done: [delete session: 9f98c4cd-254f-4ac3-8a29-f2d07948e712]

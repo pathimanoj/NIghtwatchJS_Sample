@@ -1,4 +1,5 @@
 const seleniumServer = require('selenium-server')
+const driver = require('selenium-webdriver')
 const phantomjs = require('phantomjs-prebuilt')
 const chromedriver = require('chromedriver')
 const geckodriver = require('geckodriver')

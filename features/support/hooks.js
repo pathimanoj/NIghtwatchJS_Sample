@@ -1,6 +1,4 @@
-/**
- * Created by manojpathi on 08/08/2017.
- */
+
 module.exports = function () {
     //Before each feature, start our client. We add a 3 second pause here because otherwise features start before the
     //client is ready, causing commands to not run against a browser

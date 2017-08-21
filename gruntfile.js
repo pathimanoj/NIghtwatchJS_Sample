@@ -5,9 +5,9 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         cucumberjs: {
-            src: 'Features',
+            src: 'features',
             options: {
-                steps: "Features"
+                steps: "features/step_definitions"
             }
         }
     });

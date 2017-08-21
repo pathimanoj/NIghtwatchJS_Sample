@@ -23,11 +23,11 @@
             "keyword": "Before",
             "result": {
               "status": "passed",
-              "duration": 1982
+              "duration": 2486
             },
             "hidden": true,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:19"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:13"
             }
           },
           {
@@ -36,11 +36,11 @@
             "name": "I am on the ONS Homepage",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 333
             },
             "line": 6,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:24"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:17"
             }
           },
           {
@@ -49,11 +49,11 @@
             "name": "I search for CPI dataset",
             "result": {
               "status": "passed",
-              "duration": 6
+              "duration": 530
             },
             "line": 7,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:29"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:24"
             }
           },
           {
@@ -62,11 +62,11 @@
             "name": "I select CPI dataset from search results",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 303
             },
             "line": 8,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:34"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:29"
             }
           },
           {
@@ -75,11 +75,11 @@
             "name": "I should be on the CPI dataset landing page",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 263
             },
             "line": 9,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:38"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:35"
             }
           },
           {
@@ -87,11 +87,11 @@
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 831
+              "duration": 76
             },
             "hidden": true,
             "match": {
-              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:45"
+              "location": "/Users/manojpathi/IdeaProjects/NightwatchJS_Sample/features/step_definitions/steps.js:43"
             }
           }
         ]

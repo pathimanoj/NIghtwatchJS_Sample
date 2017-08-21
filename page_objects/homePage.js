@@ -1,6 +1,4 @@
-/**
- * Created by manojpathi on 08/08/2017.
- */
+
 module.exports = {
     url: "www.ons.gov.uk",
     elements: {
@@ -11,7 +9,8 @@ module.exports = {
     commands: [{
         searchWithText: function (searchText) {
 
-            return this.setValue('@searchBar', searchText).click('@searchBtn');
+            return this.setValue('@searchBar', searchText).click('@searchBtn')
+
         }
     }]
 }
